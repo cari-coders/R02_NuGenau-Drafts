@@ -1,0 +1,63 @@
+@startmindmap
+
+* NuGenau 2024
+
+
+    ** Vor dem Festival
+        ***[#ffff66] NuGEnau Sammel Lager
+            ****_ L000: NG_Sammel_ZL
+        ***[#0a75ad] fremd Kollektiv Lager
+            ****_ L010: Cari
+            ****_ L011: Reine Wäsche
+            ****_ L012: EP
+            ****_ L039: ...
+        ***[#0a75ad] Privatpersonen Lager
+            ****_ L040: Lux Wg
+            ****_ L011: Niklas
+            ****_ L012: Mima und Pine
+            ****_ L099: ...
+
+    ** Auf dem Festival
+        *** NuGenau Zwischenlager:
+            **** Nugenau Eingangslager
+                *****_ L100: NG_Eingang
+            **** NuGenau Kommisionierungslager
+                *****_ L101: NG_Kommi
+            **** NuGenau ZentralLager
+                *****_ L102: NG_ZL
+
+            **** NuGenau Ausganslager
+                *****_ L200: NG_Ausgang
+
+
+
+
+            
+
+        ***[#99cc99] NuGenau Nutzungsort
+            ****_ L109: Öffentliches Lager
+            ****_ L110: Bar
+            ****_ L120: Küfa
+            ****_ L130: Wasser
+                *****_ L131: Dusche
+                *****_ L132: Toiletten vorne
+                *****_ L132: Toiletten hinten
+            ****_ L140: Fluss Bühne
+            ****_ L199: ...
+
+
+    ** Nachdem Festival
+        *** NuGenau Zentral Lager
+        ***[#0a75ad] Privatpersonen Lager
+        ***[#0a75ad] fremd Kollektiv Lager
+        *** Müll
+            ****_ L990: Wertstoffhof
+            ****_ L991: Saxonia
+            ****_ L992: Timi
+
+
+
+
+
+
+@enduml

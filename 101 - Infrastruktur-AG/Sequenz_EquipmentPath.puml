@@ -1,0 +1,55 @@
+@startuml
+
+participant NG_zentralLager as NG_L000
+participant "Einkäufe/Bestellungen" as Order
+participant "NG_Sammellager-1" as NG_L101
+Actor PrivatPerson as PP
+participant fremdKolletiv_Lager as FK_L
+control "Eingangslager auf dem Festival" as NG_L100
+control "Kommisionierungslager_auf_Festival_Gelände" as NG_L101
+participant "Öffentliches LAger auf dem Gelände" as NG_L102
+
+
+participant NG_Lager200 as NG_L200
+participant "Nutzungsort auf Festival" as NG_L150
+
+
+group Vorbereitung
+    PP -> NG_L000
+    FK_L -> NG_L000
+
+    NG_L000 -> NG_L100
+end
+
+
+NG_L100 -> NG_L101
+group Aufbau
+    NG_L101 -> NG_L102
+    NG_L102 --> NG_L101
+    NG_L102 --> NG_L150
+    NG_L101 -> NG_L150
+end
+
+
+
+
+NG_L150 -> NG_L101
+
+
+
+
+@enduml
+
+
+group Festival
+
+end
+
+group Abbau
+
+end
+
+
+group Nachbereitung
+
+end

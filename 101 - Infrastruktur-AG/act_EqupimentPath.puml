@@ -1,0 +1,112 @@
+@startuml
+
+
+|Vorbereitung|
+
+
+split
+    -[hidden]->
+    split
+        -[hidden]->
+        :L010;
+    split again
+    -[hidden]->
+    :L011;
+    split again
+    -[hidden]->
+    :L039;
+    end split
+    :Kollektiv Lager;
+
+split again
+    -[hidden]->
+    split
+        -[hidden]->
+    :Privatperson A;
+    split again
+    -[hidden]->
+    :Privatperson B;
+    end split
+:Privatpersonen Lieferungen;
+
+end split
+
+:NuGenau Sammel Lager in Dresden;
+
+
+
+
+|#AntiqueWhite|Aufbau|
+
+:NuGenau Eingangs Lager;
+
+:Sortierung: Aufbau;
+
+:NuGenau Zentral Lager;
+
+|Festival|
+
+fork
+    :L109:
+    Öffentliches Lager;
+fork again
+    :L110:
+    Bar;
+
+fork again
+    :L111:
+    Küfa;
+
+fork again
+    :L199:
+    ...;
+end fork
+
+
+
+|#AntiqueWhite|Abbau|
+
+
+:NuGenau Zentral Lager;
+:Sortierung: Abbau;
+:NuGenau Ausgangs Lager;
+
+|Nachbereitung|
+
+
+:NuGenau Sammel Lager in Dresden;
+
+split
+    :Kollektiv Lager;
+    split
+        :L010:
+        CARI;
+        kill
+    split again
+        :L011:
+        Reine Wäsche;
+        kill
+    split again
+        :L039:
+        ...;
+        kill
+    end split
+
+
+split again
+    :Privatpersonen Rückgaben;
+
+    split
+        :Privatperson A;
+        kill
+    split again
+        :Privatperson B;
+        kill
+    end split
+
+
+
+end split
+
+
+@enduml

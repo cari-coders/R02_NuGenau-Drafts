@@ -1,0 +1,10 @@
+@startgantt	
+
+printscale weekly
+Project starts the 2024-07-01
+[Vorbereitung] requires 12 weeks
+then [Aufbau] requires 5 days
+then [Festival] requires 1 week
+then [Abbau] requires 1 week
+then [Nachbereitung] requires 1 week
+@endgantt
